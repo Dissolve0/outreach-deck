@@ -1,0 +1,1098 @@
+{
+  "meta": {
+    "note": "Live briefs researched 2026-09-30 from public sources. Contacts only when published. Draft-only. Resonance is a known deepen, not cold."
+  },
+  "briefs": [
+    {
+      "id": "b-aspen",
+      "candidateId": "c-aspen",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Aspen & Ivy",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Aspen & Ivy",
+        "whatTheyDo": "Luxury residential interior design for new builds, renovations, and whole-home furnishing. Barrie studio with a strong Georgian Bay / Thornbury / Blue Mountains footprint.",
+        "clientsProjects": "High-end permanent and seasonal homes. Featured in Cottage Journal, Style at Home, Homes & Gardens.",
+        "positioning": "Intentional, lived-in luxury \u2014 how clients live, gather, and feel \u2014 not flip finishes.",
+        "geo": "Barrie studio (322 King Street, Unit 5); projects in Thornbury, Georgian Bay, Blue Mountains, Collingwood. Muskoka appears on their market list but is out of HeartMind travel priority.",
+        "sizeClues": "Founder-led studio with named ops and team members (Madison Staples, Ria DaCosta). Revenue unknown."
+      },
+      "people": [
+        {
+          "name": "Catherine Staples",
+          "role": "CEO & Founder / principal designer",
+          "bio": "20+ years. Public face of the studio; featured in shelter magazines.",
+          "socials": [
+            {
+              "label": "LinkedIn",
+              "url": "https://www.linkedin.com/in/aspenandivy"
+            }
+          ]
+        },
+        {
+          "name": "Madison Staples",
+          "role": "Director of Operations",
+          "bio": "Named on Blue Mountains / Thornbury pages.",
+          "socials": []
+        }
+      ],
+      "values": {
+        "signals": [
+          "How clients live, gather, and unwind",
+          "Great design is about how a space makes you feel",
+          "Sense of place and four-season living",
+          "Relational client care"
+        ],
+        "quotes": [
+          {
+            "text": "Great design isn\u2019t just about how a space looks \u2014 it\u2019s about how it makes you feel.",
+            "source": "aspenandivy.ca Blue Mountains page"
+          },
+          {
+            "text": "How our clients truly live, gather, and unwind.",
+            "source": "aspenandivy.ca Thornbury / Georgian Bay page"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "strong",
+          "why": "Space-feel language, luxury reno/new-build finishing partners, craft and lived experience."
+        },
+        "dissolve": {
+          "score": "weak",
+          "why": "No wellness or practice-host signals on sources reviewed."
+        },
+        "partnerSignals": [
+          "warm",
+          "craft over hustle",
+          "curious about space/feeling",
+          "relational"
+        ],
+        "cautionFlags": [
+          "Muskoka is on their market list \u2014 keep HeartMind geo discipline",
+          "No invented email \u2014 use contact form / LinkedIn"
+        ]
+      },
+      "contacts": {
+        "emails": [],
+        "phones": [],
+        "note": "Public studio address only. Contact form or LinkedIn. Do not invent email."
+      },
+      "socials": [
+        {
+          "label": "Website",
+          "url": "https://www.aspenandivy.ca/interior-design-thornbury-and-georgian-bay"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/aspenandivy"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "heartmind",
+        "title": "Painting as part of the design story",
+        "angle": "Affirm live / gather / feel language. Offer a small scoped collaboration or referral for clients who want paint treated as part of the design story \u2014 one live project, not a pitch deck.",
+        "mustSay": [
+          "Georgian Bay / Barrie local",
+          "how the room feels",
+          "level-five when it fits"
+        ],
+        "mustNotSay": [
+          "flip-slap paint",
+          "volume pricing",
+          "ROI pressure"
+        ]
+      },
+      "sources": [
+        {
+          "label": "Thornbury / Georgian Bay page",
+          "url": "https://www.aspenandivy.ca/interior-design-thornbury-and-georgian-bay",
+          "type": "site"
+        },
+        {
+          "label": "Blue Mountains page",
+          "url": "https://www.aspenandivy.ca/interior-designer-blue-mountains",
+          "type": "site"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/aspenandivy",
+          "type": "social"
+        }
+      ],
+      "recentPublic": [
+        {
+          "label": "Shelter-magazine features listed on site",
+          "detail": "Cottage Journal, Style at Home, Homes & Gardens"
+        }
+      ]
+    },
+    {
+      "id": "b-madison",
+      "candidateId": "c-madison",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Madison Taylor Design",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Madison Taylor Design",
+        "whatTheyDo": "Integrated residential design: architecture, interiors, and landscape under one roof since 2010. Construction-literate detailing for builders.",
+        "clientsProjects": "High-end homes, chalets, cottages \u2014 concept through coordinated interiors/landscape.",
+        "positioning": "Lived experience of space; warmth and sophistication; client life over designer ego.",
+        "geo": "HQ Midhurst; serves Collingwood, Simcoe & Grey, Barrie, GTA. Muskoka listed \u2014 out of HeartMind travel priority.",
+        "sizeClues": "Named owner plus lead decorator and lead designer on LinkedIn. Revenue unknown."
+      },
+      "people": [
+        {
+          "name": "Madison Taylor",
+          "role": "Owner / founder",
+          "bio": "Named owner on LinkedIn company page.",
+          "socials": []
+        },
+        {
+          "name": "Alyssa Wilkins",
+          "role": "Lead Interior Decorator",
+          "bio": "Listed on LinkedIn company executives.",
+          "socials": []
+        },
+        {
+          "name": "Sarah Mandell",
+          "role": "Lead Interior Designer",
+          "bio": "Listed on LinkedIn company executives.",
+          "socials": []
+        }
+      ],
+      "values": {
+        "signals": [
+          "Fulsome experience of one\u2019s space",
+          "Good design reflects the client, not the designer",
+          "Warmth and sophistication",
+          "Builder-partner communication"
+        ],
+        "quotes": [
+          {
+            "text": "Good design reflects the client, not the designer.",
+            "source": "Public site language"
+          },
+          {
+            "text": "Functionality and a fulsome experience of one\u2019s space.",
+            "source": "Public site language"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "strong",
+          "why": "Explicit space-experience language; finishing quality; Collingwood corridor."
+        },
+        "dissolve": {
+          "score": "none",
+          "why": "No practice/wellness host signals."
+        },
+        "partnerSignals": [
+          "craft over hustle",
+          "curious about space/feeling",
+          "builder collaboration"
+        ],
+        "cautionFlags": [
+          "Qualify job size against small/medium HeartMind capacity",
+          "LinkedIn-listed email is unverified \u2014 do not treat as confirmed"
+        ]
+      },
+      "contacts": {
+        "emails": [],
+        "phones": [],
+        "note": "Use owned-channel contact forms. A LinkedIn-listed email exists but is unverified \u2014 do not treat as confirmed."
+      },
+      "socials": [
+        {
+          "label": "Collingwood home design",
+          "url": "https://www.collingwoodhomedesign.com/"
+        },
+        {
+          "label": "Residential page",
+          "url": "https://www.madisontaylordesign.com/residential/"
+        },
+        {
+          "label": "LinkedIn company",
+          "url": "https://ca.linkedin.com/company/madison-taylor-design"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "heartmind",
+        "title": "Finish partner on a lived-in Collingwood / Simcoe home",
+        "angle": "Mirror \u2018experience of space\u2019 and builder collaboration. Propose an intro about one active or upcoming finish package.",
+        "mustSay": [
+          "Collingwood / Simcoe local",
+          "lived experience of space"
+        ],
+        "mustNotSay": [
+          "slap-and-list",
+          "huge crew claims"
+        ]
+      },
+      "sources": [
+        {
+          "label": "Collingwood interiors",
+          "url": "https://www.collingwoodinteriordesign.ca/",
+          "type": "site"
+        },
+        {
+          "label": "Residential",
+          "url": "https://www.madisontaylordesign.com/residential/",
+          "type": "site"
+        },
+        {
+          "label": "LinkedIn company",
+          "url": "https://ca.linkedin.com/company/madison-taylor-design",
+          "type": "social"
+        }
+      ],
+      "recentPublic": []
+    },
+    {
+      "id": "b-oliver",
+      "candidateId": "c-oliver",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Oliver Wood Designs",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Oliver Wood Designs",
+        "whatTheyDo": "One-of-a-kind organic furniture and home accents. Appointment-only showroom in Holland Centre.",
+        "clientsProjects": "Custom pieces for urban homes, beach houses, chalets, studios.",
+        "positioning": "Craft-over-volume. Wood from trees that had their full life.",
+        "geo": "Grey Highlands (Holland Centre showroom).",
+        "sizeClues": "Two principals: Mark (maker) and Lori (design / BD)."
+      },
+      "people": [
+        {
+          "name": "Mark Oliver",
+          "role": "Wood artist / craftsman",
+          "bio": "Hand-selects wood; unique finishes.",
+          "socials": []
+        },
+        {
+          "name": "Lori Oliver",
+          "role": "Design & Business Development Director",
+          "bio": "Client experience and product research.",
+          "socials": []
+        }
+      ],
+      "values": {
+        "signals": [
+          "Second life for wood",
+          "Craftsmanship and nature-inspired uniqueness",
+          "Exceed client expectations"
+        ],
+        "quotes": [
+          {
+            "text": "Pieces from trees that had their full life.",
+            "source": "oliverwooddesigns.ca"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "strong",
+          "why": "Craft, intentional interiors, Grey Highlands geo. Better as referral / showroom adjacency than as a paint buyer."
+        },
+        "dissolve": {
+          "score": "none",
+          "why": "Furniture studio, not a practice host."
+        },
+        "partnerSignals": [
+          "craft over hustle",
+          "small-batch",
+          "relational"
+        ],
+        "cautionFlags": [
+          "Not a paint buyer themselves \u2014 referral loop, not a shop-paint pitch",
+          "Verify phone/email on owned channel before any draft"
+        ]
+      },
+      "contacts": {
+        "emails": [],
+        "phones": [
+          {
+            "value": "1-226-668-8487",
+            "source": "site",
+            "confidence": "public-on-site"
+          }
+        ],
+        "note": "Site lists phone; email had spacing artifacts on fetch. Prefer phone / social as listed."
+      },
+      "socials": [
+        {
+          "label": "Website",
+          "url": "https://www.oliverwooddesigns.ca/"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "heartmind",
+        "title": "Mutual referral, not a paint pitch",
+        "angle": "Shared craft-over-volume ethos. HeartMind homes that want artisan furniture; Oliver clients renovating who need feel-first paint. Optional showroom visit.",
+        "mustSay": [
+          "Grey Highlands neighbour",
+          "craft over volume"
+        ],
+        "mustNotSay": [
+          "hard pitch to paint their products"
+        ]
+      },
+      "sources": [
+        {
+          "label": "Company site",
+          "url": "https://www.oliverwooddesigns.ca/",
+          "type": "site"
+        }
+      ],
+      "recentPublic": []
+    },
+    {
+      "id": "b-adall",
+      "candidateId": "c-adall",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Adall Homes",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Adall Homes",
+        "whatTheyDo": "Renovations, additions, custom homes, and project management. Began ~2000 in interior finishing.",
+        "clientsProjects": "Homeowners across Simcoe. Also marketing Coldwater Greenwood Landing model homes.",
+        "positioning": "Quality workmanship, customer relations, craftsmanship, environmental reuse.",
+        "geo": "65 Cedar Pointe Drive, Unit 231, Barrie. Serves Barrie, Innisfil, Oro, Medonte, Springwater, Angus, Essa, Orillia, Wasaga.",
+        "sizeClues": "Owner-led design-build. Headcount not published."
+      },
+      "people": [
+        {
+          "name": "Jody Treibmann",
+          "role": "Owner",
+          "bio": "LinkedIn headline: owner of Adall Homes. Media Suite portfolio names Jody and spouse as site owners.",
+          "socials": [
+            {
+              "label": "LinkedIn",
+              "url": "https://www.linkedin.com/in/jody-treibmann-21845849"
+            }
+          ]
+        }
+      ],
+      "values": {
+        "signals": [
+          "Advanced craftsmanship",
+          "Cooperative team spirit",
+          "Donate usable materials to ReStore",
+          "Recycle concrete, brick, steel, aluminum, wood"
+        ],
+        "quotes": [
+          {
+            "text": "Quality workmanship and customer relations.",
+            "source": "adallhomes.com"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "moderate",
+          "why": "Design-build plus finishing orientation and Simcoe geo. Qualify that they care how finished spaces feel, not cheapest/fastest only."
+        },
+        "dissolve": {
+          "score": "none",
+          "why": "Construction firm."
+        },
+        "partnerSignals": [
+          "craft",
+          "client trust",
+          "environmental care"
+        ],
+        "cautionFlags": [
+          "Soft Pass if pure production / volume mentality \u2014 qualify on a live finish scope",
+          "Do not invent email; phone and form are public"
+        ]
+      },
+      "contacts": {
+        "emails": [],
+        "phones": [
+          {
+            "value": "705.309.3475",
+            "source": "adallhomes.com",
+            "confidence": "public-on-site"
+          }
+        ],
+        "note": "Public phone and contact form. Do not invent email."
+      },
+      "socials": [
+        {
+          "label": "Website",
+          "url": "https://adallhomes.com/"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jody-treibmann-21845849"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "heartmind",
+        "title": "Walk one active job\u2019s paint scope",
+        "angle": "Align on craftsmanship and client trust. Propose walking one current reno or custom where finishing quality is the differentiator.",
+        "mustSay": [
+          "Simcoe local",
+          "finishing quality"
+        ],
+        "mustNotSay": [
+          "cheapest painter",
+          "huge crew"
+        ]
+      },
+      "sources": [
+        {
+          "label": "Company site",
+          "url": "https://adallhomes.com/",
+          "type": "site"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jody-treibmann-21845849",
+          "type": "social"
+        },
+        {
+          "label": "Media Suite portfolio",
+          "url": "https://mediasuite.ca/mobile/portfolio/adall-homes",
+          "type": "directory"
+        }
+      ],
+      "recentPublic": [
+        {
+          "label": "Greenwood Landing model homes",
+          "detail": "Coldwater marketing mentioned on public site"
+        }
+      ]
+    },
+    {
+      "id": "b-bluehaus",
+      "candidateId": "c-bluehaus",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Bluehaus Realty Group",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Bluehaus Realty Group",
+        "whatTheyDo": "Boutique PSR brokerage team for luxury / resort residential. In-house interior design and staging; staging copy calls out declutter and paint.",
+        "clientsProjects": "Buyers, sellers, investors across South Georgian Bay and listed GTA / Newmarket work.",
+        "positioning": "Market intelligence plus hands-on execution. Feel-of-home marketing.",
+        "geo": "305-10 Keith Ave, Collingwood. Markets: Collingwood, Blue Mountains, Thornbury, Meaford; Chris also Aurora/Newmarket.",
+        "sizeClues": "Named sales + design team on site."
+      },
+      "people": [
+        {
+          "name": "Chris Moffat-Lynch",
+          "role": "Sales representative",
+          "bio": "Blue Mountain since 2011; 2025 PSR Gold Award. Email published on site.",
+          "socials": []
+        },
+        {
+          "name": "Jacqui Viaene",
+          "role": "Interior designer & sales rep",
+          "bio": "Staging/design; personal bio also notes yoga instructor.",
+          "socials": []
+        },
+        {
+          "name": "Will Hoff",
+          "role": "Lead sales \u00b7 Freed Blue Mountain",
+          "bio": "Brand Ambassador 2025.",
+          "socials": []
+        }
+      ],
+      "values": {
+        "signals": [
+          "Staging and design to show homes at their best",
+          "Client-first prep",
+          "Market intelligence plus execution"
+        ],
+        "quotes": [
+          {
+            "text": "Declutter & paint called out in staging.",
+            "source": "bluehausrealtygroup.ca"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "strong",
+          "why": "Staging explicitly includes paint; feel-of-home listing prep."
+        },
+        "dissolve": {
+          "score": "weak",
+          "why": "Jacqui yoga mention only \u2014 not a studio partnership primary."
+        },
+        "partnerSignals": [
+          "referral",
+          "feel-of-home",
+          "in-house design"
+        ],
+        "cautionFlags": [
+          "Ask how they choose painters \u2014 Soft Pass if cheapest flip paint only",
+          "Muskoka appears in market list; keep geo discipline"
+        ]
+      },
+      "contacts": {
+        "emails": [
+          {
+            "value": "chris@bluehausrealtygroup.ca",
+            "source": "site",
+            "confidence": "public-on-site"
+          },
+          {
+            "value": "jacqui@bluehausrealtygroup.ca",
+            "source": "site",
+            "confidence": "public-on-site"
+          }
+        ],
+        "phones": [
+          {
+            "value": "(705) 315-0429",
+            "source": "site",
+            "confidence": "public-on-site"
+          }
+        ],
+        "note": "Public emails and phone on the company site."
+      },
+      "socials": [
+        {
+          "label": "Website",
+          "url": "https://bluehausrealtygroup.ca/"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "heartmind",
+        "title": "Preferred painter for listing prep",
+        "angle": "Talk to Chris and Jacqui about staging paint standards. Offer one trial listing-prep refresh where space feel sells the home.",
+        "mustSay": [
+          "Collingwood / Blue Mountain local",
+          "listing-ready feel"
+        ],
+        "mustNotSay": [
+          "spray and pray",
+          "volume mill"
+        ]
+      },
+      "sources": [
+        {
+          "label": "Company site",
+          "url": "https://bluehausrealtygroup.ca/",
+          "type": "site"
+        }
+      ],
+      "recentPublic": [
+        {
+          "label": "2025 PSR Gold Award",
+          "detail": "Chris Moffat-Lynch"
+        }
+      ]
+    },
+    {
+      "id": "b-yoga-journey",
+      "candidateId": "c-yoga-journey",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Yoga Journey Collingwood",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Yoga Journey Collingwood",
+        "whatTheyDo": "Community-centered Iyengar Yoga studio. Online plus in-studio; memberships, privates, assessment and plan.",
+        "clientsProjects": "Students of all levels seeking precise, alignment-based practice.",
+        "positioning": "Inclusive, non-competitive. Community held sacred.",
+        "geo": "87B Hurontario Street, Collingwood.",
+        "sizeClues": "Founder-led studio."
+      },
+      "people": [
+        {
+          "name": "Lori Berenz",
+          "role": "Founder / Director; Level 3 Iyengar",
+          "bio": "Practice since 1998; full-time teaching since 2004 after an HR career.",
+          "socials": []
+        }
+      ],
+      "values": {
+        "signals": [
+          "Balance in body, breath, mind",
+          "Community held sacred",
+          "Meet students where they are",
+          "Precision and therapeutic adaptability"
+        ],
+        "quotes": [
+          {
+            "text": "Community held sacred.",
+            "source": "yogajourney.ca"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "weak",
+          "why": "Studio space exists but primary match is Dissolve workshops/classes."
+        },
+        "dissolve": {
+          "score": "strong",
+          "why": "Studio host, practice lineage, community gatherer."
+        },
+        "partnerSignals": [
+          "practice lineage",
+          "warm hosting",
+          "already gathers people"
+        ],
+        "cautionFlags": [
+          "Respect Iyengar container \u2014 do not propose competing flow classes"
+        ]
+      },
+      "contacts": {
+        "emails": [
+          {
+            "value": "lori@yogajourney.ca",
+            "source": "site",
+            "confidence": "public-on-site"
+          }
+        ],
+        "phones": [
+          {
+            "value": "416.727.2664",
+            "source": "site",
+            "confidence": "public-on-site"
+          }
+        ],
+        "note": "Public email and phone on yogajourney.ca."
+      },
+      "socials": [
+        {
+          "label": "Website",
+          "url": "https://yogajourney.ca/"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "dissolve",
+        "title": "Guest workshop that complements Iyengar",
+        "angle": "Affirm community and lineage. Ask what would serve her students without diluting the studio\u2019s identity \u2014 meditation or embodied weekend module, not a competing class.",
+        "mustSay": [
+          "respect for Iyengar container",
+          "Collingwood neighbour"
+        ],
+        "mustNotSay": [
+          "replace her programming",
+          "hard sell"
+        ]
+      },
+      "sources": [
+        {
+          "label": "Company site",
+          "url": "https://yogajourney.ca/",
+          "type": "site"
+        }
+      ],
+      "recentPublic": []
+    },
+    {
+      "id": "b-nook",
+      "candidateId": "c-nook",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Nook Yoga",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Nook Yoga",
+        "whatTheyDo": "Lakefront / downtown Barrie yoga studio. Classes, privates, baby/prenatal, teacher training, workshops, retreats.",
+        "clientsProjects": "Barrie practitioners; training and retreats (Portugal 2027 listed).",
+        "positioning": "More than a yoga studio \u2014 depth over appearance.",
+        "geo": "Barrie, overlooking Kempenfelt Bay.",
+        "sizeClues": "Two directors plus named faculty."
+      },
+      "people": [
+        {
+          "name": "Anna Griffiths",
+          "role": "Founder; Director of Yoga & Client Experience",
+          "bio": "Athletics to philosophy grad studies to 15 years teaching; 1000+ training hours.",
+          "socials": []
+        },
+        {
+          "name": "Shannon Kuyt",
+          "role": "Director of Operations & Finance",
+          "bio": "Business/innovation background; motherhood into yoga.",
+          "socials": []
+        }
+      ],
+      "values": {
+        "signals": [
+          "Depth over appearance",
+          "Curiosity, ease, kindness",
+          "Yoga beyond the mat",
+          "Thoughtfully designed facility"
+        ],
+        "quotes": [
+          {
+            "text": "Depth over appearance.",
+            "source": "nookyoga.ca/about-us"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "soft",
+          "why": "Space-care language exists but Dissolve is first."
+        },
+        "dissolve": {
+          "score": "strong",
+          "why": "Studio host; gathers practitioners; workshop/training culture."
+        },
+        "partnerSignals": [
+          "already gathers people",
+          "practice lineage",
+          "warm hosting"
+        ],
+        "cautionFlags": [
+          "Calendar may be saturated with own training \u2014 propose a single pilot"
+        ]
+      },
+      "contacts": {
+        "emails": [],
+        "phones": [
+          {
+            "value": "(705) 315-1074",
+            "source": "site",
+            "confidence": "public-on-site"
+          }
+        ],
+        "note": "Public phone and contact form. Do not invent email."
+      },
+      "socials": [
+        {
+          "label": "About",
+          "url": "https://www.nookyoga.ca/about-us"
+        },
+        {
+          "label": "Home",
+          "url": "https://www.nookyoga.ca/"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "dissolve",
+        "title": "One pilot workshop in a room-temp slot",
+        "angle": "Match depth-over-appearance. Ask Anna what gaps exist for students after mat practice.",
+        "mustSay": [
+          "Barrie neighbour",
+          "depth over appearance"
+        ],
+        "mustNotSay": [
+          "compete with teacher training"
+        ]
+      },
+      "sources": [
+        {
+          "label": "About",
+          "url": "https://www.nookyoga.ca/about-us",
+          "type": "site"
+        },
+        {
+          "label": "Home",
+          "url": "https://www.nookyoga.ca/",
+          "type": "site"
+        }
+      ],
+      "recentPublic": [
+        {
+          "label": "Portugal retreat 2027",
+          "detail": "Listed on site"
+        }
+      ]
+    },
+    {
+      "id": "b-mindful",
+      "candidateId": "c-mindful",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Mindful Growth",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Mindful Growth",
+        "whatTheyDo": "Trauma-informed group and individual mindfulness, meditation, and yoga, plus public speaking \u2014 online or in-person across Ontario.",
+        "clientsProjects": "Studios, fitness centres, sports teams, police leaders, individuals.",
+        "positioning": "Lighthearted, practical, inclusive. Woo-woo free unless you want some.",
+        "geo": "Barrie base, Ontario reach.",
+        "sizeClues": "Founder practice. Surname not published on homepage reviewed."
+      },
+      "people": [
+        {
+          "name": "Kyle",
+          "role": "Founder / teacher / speaker",
+          "bio": "E-RYT, Certified iRest teacher, Warriors at Ease Level 1. Holistic Yoga Therapy training in Rishikesh; nearly two decades in emergency services. Last name not on homepage.",
+          "socials": []
+        }
+      ],
+      "values": {
+        "signals": [
+          "Present, connected, purposeful",
+          "Trauma-informed",
+          "Practical and inclusive"
+        ],
+        "quotes": [
+          {
+            "text": "Woo-woo free unless you want some.",
+            "source": "mindfulgrowth.ca"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "none",
+          "why": "Mobile teacher, not a space-feel buyer."
+        },
+        "dissolve": {
+          "score": "strong",
+          "why": "Practice teacher; workshops/groups; trauma-informed depth."
+        },
+        "partnerSignals": [
+          "practice lineage",
+          "relational",
+          "curious about practice"
+        ],
+        "cautionFlags": [
+          "Legal last name unknown \u2014 do not invent",
+          "No public email/phone on homepage reviewed"
+        ]
+      },
+      "contacts": {
+        "emails": [],
+        "phones": [],
+        "note": "Use site contact / booking paths only until surname and owned-channel contact are verified."
+      },
+      "socials": [
+        {
+          "label": "Website",
+          "url": "https://www.mindfulgrowth.ca/"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "dissolve",
+        "title": "Co-hosted evening that helps his students",
+        "angle": "Respect the trauma-informed lane. Ask where collaboration would help his students without competing for the same class slots.",
+        "mustSay": [
+          "trauma-informed respect",
+          "Barrie / Ontario"
+        ],
+        "mustNotSay": [
+          "invented last name",
+          "competing class grab"
+        ]
+      },
+      "sources": [
+        {
+          "label": "Company site",
+          "url": "https://www.mindfulgrowth.ca/",
+          "type": "site"
+        }
+      ],
+      "recentPublic": []
+    },
+    {
+      "id": "b-cocoon",
+      "candidateId": "c-cocoon",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Cocoon Orillia",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Cocoon Orillia",
+        "whatTheyDo": "Purpose-designed furnished therapy-room rental hub for independent therapists \u2014 not a group practice.",
+        "clientsProjects": "Rooms named Snug, Cozy, Soothing, Playful. Flexible block rentals from about $160/month.",
+        "positioning": "Inviting space plus skilled therapist creates a healing atmosphere.",
+        "geo": "53 Andrew Street South, Orillia.",
+        "sizeClues": "Two hosts; multi-room rental."
+      },
+      "people": [
+        {
+          "name": "Candy Potter",
+          "role": "Host / registered psychotherapist",
+          "bio": "Space-as-healing advocate.",
+          "socials": []
+        },
+        {
+          "name": "Steve Caston",
+          "role": "Co-host",
+          "bio": "Graphic designer, artist, musician. Community roots in special-needs camp.",
+          "socials": []
+        }
+      ],
+      "values": {
+        "signals": [
+          "Intersubjective space",
+          "Trust, openness, growth",
+          "Community, place, support"
+        ],
+        "quotes": [
+          {
+            "text": "Inviting space + skilled therapist \u2192 healing atmosphere.",
+            "source": "cocoonorillia.com"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "strong",
+          "why": "Space-as-healing; designed rooms; paint/finish for feel."
+        },
+        "dissolve": {
+          "score": "strong",
+          "why": "Therapist community; possible workshops / bodywork adjacency."
+        },
+        "partnerSignals": [
+          "warm",
+          "curious about space/feeling",
+          "already gathers people",
+          "mutual upside"
+        ],
+        "cautionFlags": [
+          "Do not invent email; phone and address are public"
+        ]
+      },
+      "contacts": {
+        "emails": [],
+        "phones": [
+          {
+            "value": "705-689-4039",
+            "source": "site",
+            "confidence": "public-on-site"
+          }
+        ],
+        "note": "Public phone and street address. Do not invent email."
+      },
+      "socials": [
+        {
+          "label": "Website",
+          "url": "https://cocoonorillia.com/"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "heartmind",
+        "title": "Dual-track open: room feel or community session",
+        "angle": "Lead with shared belief that space shapes healing. Ask which track opens first: a paint/feel refresh for one room, or a Dissolve session for their therapist community.",
+        "mustSay": [
+          "Orillia local",
+          "space shapes healing"
+        ],
+        "mustNotSay": [
+          "group-practice assumption",
+          "hard close"
+        ]
+      },
+      "sources": [
+        {
+          "label": "Company site",
+          "url": "https://cocoonorillia.com/",
+          "type": "site"
+        }
+      ],
+      "recentPublic": []
+    },
+    {
+      "id": "b-resonance",
+      "candidateId": "c-resonance",
+      "sample": false,
+      "title": "Prospect brief \u00b7 Resonance / Paz Ciuk",
+      "updatedAt": "2026-09-30",
+      "company": {
+        "name": "Resonance Cultural Centre",
+        "whatTheyDo": "Nonprofit cultural / wellness hub. Events, workshops, classes: music, arts, ecstatic dance, drumming, men\u2019s circle, healing journeys.",
+        "clientsProjects": "Community members seeking cultural, creative, and wellness experiences. No-shoes venue.",
+        "positioning": "Create, connect, evolve. Inclusive non-judgemental spaces.",
+        "geo": "10 Greco Court, Unit 10, Collingwood.",
+        "sizeClues": "Registered nonprofit (Charity ID 1001544166 per offerings page). Multiple facilitators."
+      },
+      "people": [
+        {
+          "name": "Paz Ciuk",
+          "role": "Facilitator / DJ / drummer / co-host",
+          "bio": "Mexico City origin; ~15 years in Canada; Collingwood-based. Hosts ecstatic dance as DJ Paz, Foundations of Drumming, Heart Beat Flow, Men\u2019s Connection Circle, and more.",
+          "socials": []
+        }
+      ],
+      "values": {
+        "signals": [
+          "Create, connect, evolve",
+          "Nourish the soul",
+          "Inclusive non-judgemental spaces"
+        ],
+        "quotes": [
+          {
+            "text": "Create, connect, evolve.",
+            "source": "resonancecollingwood.ca"
+          }
+        ]
+      },
+      "fit": {
+        "heartmind": {
+          "score": "soft",
+          "why": "Physical venue could eventually need a feel-first refresh \u2014 not the open door."
+        },
+        "dissolve": {
+          "score": "strong",
+          "why": "ICP named known Dissolve space / Paz. Deepen the existing relationship."
+        },
+        "partnerSignals": [
+          "known deepen",
+          "already gathers people",
+          "practice lineage"
+        ],
+        "cautionFlags": [
+          "NOT cold outreach \u2014 Hard Pass on a cold pitch",
+          "Use existing DissolveO relationship channels"
+        ]
+      },
+      "contacts": {
+        "emails": [],
+        "phones": [],
+        "note": "Use existing relationship channels. Public location only unless DissolveO already holds contact."
+      },
+      "socials": [
+        {
+          "label": "Home",
+          "url": "https://www.resonancecollingwood.ca/"
+        },
+        {
+          "label": "Offerings",
+          "url": "https://www.resonancecollingwood.ca/our-offerings"
+        },
+        {
+          "label": "Location",
+          "url": "https://www.resonancecollingwood.ca/location"
+        }
+      ],
+      "suggestedOffer": {
+        "track": "dissolve",
+        "title": "Deepen \u2014 next small mutual thing",
+        "angle": "Thank / check-in. Propose the next small mutual thing already in the Dissolve lane. HeartMind painting only if they raise space needs.",
+        "mustSay": [
+          "continuity",
+          "what would help Resonance now"
+        ],
+        "mustNotSay": [
+          "cold pitch",
+          "net-new spray outreach"
+        ]
+      },
+      "sources": [
+        {
+          "label": "Home",
+          "url": "https://www.resonancecollingwood.ca/",
+          "type": "site"
+        },
+        {
+          "label": "Offerings",
+          "url": "https://www.resonancecollingwood.ca/our-offerings",
+          "type": "site"
+        },
+        {
+          "label": "Location",
+          "url": "https://www.resonancecollingwood.ca/location",
+          "type": "site"
+        }
+      ],
+      "recentPublic": [
+        {
+          "label": "Charity ID listed on offerings",
+          "detail": "1001544166"
+        }
+      ]
+    }
+  ]
+}

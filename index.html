@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fdfcf8">
+  <title>Outreach Deck · DissolveO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#library" aria-label="Outreach Deck home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>
+          <strong>Outreach Deck</strong>
+          <small>Cold research · draft only</small>
+        </span>
+      </a>
+      <div class="topbar-center" aria-label="Pipeline stages">
+        <ol class="pipeline" id="pipeline">
+          <li data-stage="discover"><span>1</span> Discover</li>
+          <li data-stage="research" class="spine"><span>2</span> Research</li>
+          <li data-stage="deck"><span>3</span> Deck</li>
+          <li data-stage="tone"><span>4</span> Tone</li>
+          <li data-stage="draft"><span>5</span> Draft</li>
+        </ol>
+      </div>
+      <div class="topbar-right">
+        <span class="saved-state"><i></i> Saved locally</span>
+        <button class="help-button" type="button" id="help-btn" aria-label="About Outreach Deck">?</button>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <aside class="sidebar">
+        <div class="sidebar-intro">
+          <span class="eyebrow">Cold circle</span>
+          <p>Research first. Briefing is the spine. Keep / Pass only after you trust the card.</p>
+        </div>
+        <nav class="nav" aria-label="Main navigation">
+          <button class="nav-item" data-view="discover" type="button">
+            <span class="nav-icon">＋</span><span>Discover</span>
+          </button>
+          <button class="nav-item active" data-view="library" type="button">
+            <span class="nav-icon">◎</span><span>Briefs</span><b id="lib-count">—</b>
+          </button>
+          <button class="nav-item" data-view="deck" type="button">
+            <span class="nav-icon">▤</span><span>Deck</span><b id="deck-count">—</b>
+          </button>
+          <button class="nav-item" data-view="decisions" type="button">
+            <span class="nav-icon">✓</span><span>Decisions</span><b id="dec-count">—</b>
+          </button>
+          <button class="nav-item" data-view="tone" type="button">
+            <span class="nav-icon">◈</span><span>Tone</span><b id="tone-count">—</b>
+          </button>
+          <button class="nav-item" data-view="draft" type="button">
+            <span class="nav-icon">✎</span><span>Draft</span><b id="draft-count">—</b>
+          </button>
+        </nav>
+        <div class="sidebar-foot">
+          <span class="mini-sun">✳</span>
+          <p>Never invent send.<br>You press send outside this app.</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <div id="loading" class="loading-state"><span class="loader"></span> Gathering briefs…</div>
+        <div id="app" hidden></div>
+      </main>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modal" class="modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" id="modal-close" aria-label="Close">×</button>
+      <h2 id="modal-title">Outreach Deck</h2>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

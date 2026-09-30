@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "campaign": "Grey Highlands + Simcoe \u00b7 live briefs from Drive",
+    "geo": "Grey Highlands (Collingwood); Simcoe (Barrie, Innisfil, Orillia); Newmarket",
+    "geoOut": "Muskoka",
+    "driveFolder": "https://drive.google.com/drive/folders/1yc3vk6uTDDGbbDG_E7g2-azCbktGo_6y",
+    "note": "Live briefs researched 2026-09-30 from public sources. Contacts only when published. Draft-only. Resonance is a known deepen, not cold."
+  },
+  "candidates": [
+    {
+      "id": "c-aspen",
+      "sample": false,
+      "orgName": "Aspen & Ivy",
+      "displayName": "Aspen & Ivy",
+      "roles": [
+        "Interior designer"
+      ],
+      "geo": "Barrie studio \u00b7 Thornbury / Georgian Bay",
+      "tracks": [
+        "heartmind"
+      ],
+      "website": "https://www.aspenandivy.ca/interior-design-thornbury-and-georgian-bay",
+      "completeness": 90,
+      "hasBrief": true,
+      "briefId": "b-aspen",
+      "deckStatus": "unreviewed",
+      "about": "Luxury residential interiors founded by Catherine Staples. Public language centres on how clients live, gather, and feel.",
+      "valuesSignals": [
+        "live / gather / feel",
+        "lived-in luxury",
+        "sense of place"
+      ],
+      "sizeOrFinance": "Public: Barrie studio + project work across Georgian Bay / Blue Mountains. Revenue unknown."
+    },
+    {
+      "id": "c-madison",
+      "sample": false,
+      "orgName": "Madison Taylor Design",
+      "displayName": "Madison Taylor Design",
+      "roles": [
+        "Interior designer",
+        "Architecture-adjacent"
+      ],
+      "geo": "Midhurst HQ \u00b7 Collingwood / Simcoe / Grey",
+      "tracks": [
+        "heartmind"
+      ],
+      "website": "https://www.collingwoodhomedesign.com/",
+      "completeness": 88,
+      "hasBrief": true,
+      "briefId": "b-madison",
+      "deckStatus": "unreviewed",
+      "about": "Integrated architecture, interiors, and landscape since 2010. Emphasizes lived experience of space over designer ego.",
+      "valuesSignals": [
+        "experience of space",
+        "client over designer",
+        "builder-literate"
+      ],
+      "sizeOrFinance": "Public: Midhurst HQ; LinkedIn lists a small leadership team. Revenue unknown."
+    },
+    {
+      "id": "c-oliver",
+      "sample": false,
+      "orgName": "Oliver Wood Designs",
+      "displayName": "Oliver Wood Designs",
+      "roles": [
+        "Artisan furniture",
+        "Craft studio"
+      ],
+      "geo": "Grey Highlands (Holland Centre)",
+      "tracks": [
+        "heartmind"
+      ],
+      "website": "https://www.oliverwooddesigns.ca/",
+      "completeness": 82,
+      "hasBrief": true,
+      "briefId": "b-oliver",
+      "deckStatus": "unreviewed",
+      "about": "Appointment-only artisan furniture from Mark and Lori Oliver. Craft-over-volume; wood given a second life.",
+      "valuesSignals": [
+        "craft over volume",
+        "nature-inspired",
+        "small-batch"
+      ],
+      "sizeOrFinance": "Public: boutique showroom, two principals. Revenue unknown."
+    },
+    {
+      "id": "c-adall",
+      "sample": false,
+      "orgName": "Adall Homes",
+      "displayName": "Adall Homes",
+      "roles": [
+        "Builder / GC",
+        "Renovator"
+      ],
+      "geo": "Barrie \u00b7 Simcoe County",
+      "tracks": [
+        "heartmind"
+      ],
+      "website": "https://adallhomes.com/",
+      "completeness": 86,
+      "hasBrief": true,
+      "briefId": "b-adall",
+      "deckStatus": "unreviewed",
+      "about": "Design-build renovations, additions, and custom homes. Quality workmanship and client relations since ~2000.",
+      "valuesSignals": [
+        "craftsmanship",
+        "client trust",
+        "environmental reuse"
+      ],
+      "sizeOrFinance": "Public: Barrie office; Simcoe service area. Revenue unknown."
+    },
+    {
+      "id": "c-bluehaus",
+      "sample": false,
+      "orgName": "Bluehaus Realty Group",
+      "displayName": "Bluehaus Realty Group",
+      "roles": [
+        "Real estate / staging"
+      ],
+      "geo": "Collingwood \u00b7 Blue Mountain \u00b7 Newmarket listed",
+      "tracks": [
+        "heartmind"
+      ],
+      "website": "https://bluehausrealtygroup.ca/",
+      "completeness": 92,
+      "hasBrief": true,
+      "briefId": "b-bluehaus",
+      "deckStatus": "unreviewed",
+      "about": "Boutique PSR team with in-house design and staging. Staging copy explicitly includes declutter and paint.",
+      "valuesSignals": [
+        "feel-of-home listings",
+        "in-house staging",
+        "client-first prep"
+      ],
+      "sizeOrFinance": "Public: Collingwood office; named sales + design team. Revenue unknown."
+    },
+    {
+      "id": "c-yoga-journey",
+      "sample": false,
+      "orgName": "Yoga Journey Collingwood",
+      "displayName": "Yoga Journey Collingwood",
+      "roles": [
+        "Wellness studio",
+        "Iyengar teacher"
+      ],
+      "geo": "Collingwood, ON",
+      "tracks": [
+        "dissolve"
+      ],
+      "website": "https://yogajourney.ca/",
+      "completeness": 88,
+      "hasBrief": true,
+      "briefId": "b-yoga-journey",
+      "deckStatus": "unreviewed",
+      "about": "Community-centered Iyengar studio founded by Lori Berenz. Inclusive, non-competitive practice container.",
+      "valuesSignals": [
+        "practice lineage",
+        "community as sacred",
+        "meet students where they are"
+      ],
+      "sizeOrFinance": "Public: founder-led studio downtown. Revenue unknown."
+    },
+    {
+      "id": "c-nook",
+      "sample": false,
+      "orgName": "Nook Yoga",
+      "displayName": "Nook Yoga",
+      "roles": [
+        "Wellness studio"
+      ],
+      "geo": "Barrie, ON",
+      "tracks": [
+        "dissolve"
+      ],
+      "website": "https://www.nookyoga.ca/about-us",
+      "completeness": 87,
+      "hasBrief": true,
+      "briefId": "b-nook",
+      "deckStatus": "unreviewed",
+      "about": "Lakefront Barrie studio. Depth over appearance; classes, training, workshops, retreats.",
+      "valuesSignals": [
+        "depth over appearance",
+        "inclusive community",
+        "thoughtfully designed space"
+      ],
+      "sizeOrFinance": "Public: two directors + faculty. Revenue unknown."
+    },
+    {
+      "id": "c-mindful",
+      "sample": false,
+      "orgName": "Mindful Growth",
+      "displayName": "Mindful Growth",
+      "roles": [
+        "Yoga / meditation teacher"
+      ],
+      "geo": "Barrie \u00b7 Ontario reach",
+      "tracks": [
+        "dissolve"
+      ],
+      "website": "https://www.mindfulgrowth.ca/",
+      "completeness": 78,
+      "hasBrief": true,
+      "briefId": "b-mindful",
+      "deckStatus": "unreviewed",
+      "about": "Trauma-informed yoga and meditation with iRest credentials. Surname not published on the homepage reviewed.",
+      "valuesSignals": [
+        "trauma-informed",
+        "practical / inclusive",
+        "groups and individuals"
+      ],
+      "sizeOrFinance": "Public: founder practice, mobile / multi-site. Revenue unknown."
+    },
+    {
+      "id": "c-cocoon",
+      "sample": false,
+      "orgName": "Cocoon Orillia",
+      "displayName": "Cocoon Orillia",
+      "roles": [
+        "Therapy space host",
+        "Community space"
+      ],
+      "geo": "Orillia, ON",
+      "tracks": [
+        "heartmind",
+        "dissolve"
+      ],
+      "website": "https://cocoonorillia.com/",
+      "completeness": 90,
+      "hasBrief": true,
+      "briefId": "b-cocoon",
+      "deckStatus": "unreviewed",
+      "about": "Purpose-designed therapy-room rentals. Candy Potter and Steve Caston host rooms meant to shape healing.",
+      "valuesSignals": [
+        "space-as-healing",
+        "therapist community",
+        "designed rooms"
+      ],
+      "sizeOrFinance": "Public: multi-room rental hub. Revenue unknown."
+    },
+    {
+      "id": "c-resonance",
+      "sample": false,
+      "orgName": "Resonance Cultural Centre",
+      "displayName": "Resonance / Paz Ciuk",
+      "roles": [
+        "Wellness host",
+        "Community space"
+      ],
+      "geo": "Collingwood, ON",
+      "tracks": [
+        "dissolve"
+      ],
+      "website": "https://www.resonancecollingwood.ca/",
+      "completeness": 91,
+      "hasBrief": true,
+      "briefId": "b-resonance",
+      "deckStatus": "unreviewed",
+      "knownDeepen": true,
+      "about": "Known Dissolve anchor \u2014 deepen, do not cold-pitch. Nonprofit cultural/wellness hub; Paz hosts recurring circles and dance.",
+      "valuesSignals": [
+        "create / connect / evolve",
+        "inclusive space",
+        "practice community"
+      ],
+      "sizeOrFinance": "Public: registered nonprofit at 10 Greco Court. Revenue not applicable."
+    }
+  ]
+}
