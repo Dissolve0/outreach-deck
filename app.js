@@ -23,6 +23,7 @@
     detailId: null,
     deckIndex: 0,
     toneId: null,
+    query: "",
     undo: null,
   };
 
@@ -263,6 +264,16 @@
     else if (filter === "heartmind") list = list.filter((c) => c.tracks.includes("heartmind"));
     else if (filter === "dissolve") list = list.filter((c) => c.tracks.includes("dissolve"));
     else if (filter === "unreviewed") list = list.filter((c) => statusOf(c) === "unreviewed" && c.hasBrief);
+    else if (filter === "kept") list = list.filter((c) => statusOf(c) === "kept");
+    else if (filter === "deepen") list = list.filter((c) => c.knownDeepen);
+
+    const q = (state.query || "").trim().toLowerCase();
+    if (q) {
+      list = list.filter((c) => {
+        const blob = [c.orgName, c.geo, c.about, ...(c.roles || []), ...(c.tracks || [])].join(" ").toLowerCase();
+        return blob.includes(q);
+      });
+    }
 
     list.sort((a, b) => {
       if (a.hasBrief !== b.hasBrief) return a.hasBrief ? -1 : 1;
@@ -288,6 +299,8 @@
             ["heartmind", "HeartMind"],
             ["dissolve", "Dissolve"],
             ["thin", "Thin"],
+            ["kept", "Kept"],
+            ["deepen", "Deepen"],
           ]
             .map(
               ([id, label]) =>
@@ -295,6 +308,7 @@
             )
             .join("")}
         </div>
+        <input class="search-input" id="lib-search" type="search" placeholder="Search name, geo, role…" value="${escapeAttr(state.query || "")}">
       </div>
       <div class="brief-grid">
         ${list.map(cardHtml).join("") || `<div class="empty-state card" style="padding:40px;grid-column:1/-1">Nothing in this filter.</div>`}
@@ -307,6 +321,16 @@
       </div>
     `;
     $("#app").innerHTML = html;
+    const search = $("#lib-search");
+    if (search) {
+      search.addEventListener("input", (e) => {
+        state.query = e.target.value;
+      });
+      search.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") render();
+      });
+      search.addEventListener("blur", () => render());
+    }
     $$(".filter-pill").forEach((btn) =>
       btn.addEventListener("click", () => {
         state.filter = btn.dataset.filter;
@@ -690,6 +714,10 @@
       toast("Brief required before Keep / Pass");
       return;
     }
+    if (c.knownDeepen && action === "kept") {
+      const ok = confirm("This is a known deepen, not a cold first touch. Keep means deepen the existing relationship — not a pitch. Continue?");
+      if (!ok) return;
+    }
 
     const prev = statusOf(c);
     state.undo = {
@@ -899,15 +927,56 @@
     }
   }
 
+  function firstName(b) {
+    const person = b.people?.[0]?.name || "";
+    return person.split(" ")[0] || "";
+  }
+
   function previewOpening(b, locked) {
     const angle = locked?.angle || "warm";
     const name = b.company.name;
+    const who = firstName(b);
+    const hello = who ? `Hi ${who}` : "Hi";
+    const geo = (b.company.geo || "").split("(")[0].trim();
+    const signal = (b.values.signals?.[0] || "the care in the work").replace(/\.$/, "");
+    const quote = b.values.quotes?.[0]?.text;
+    const offer = b.suggestedOffer || {};
+    const deepen = (b.fit?.cautionFlags || []).some((f) => /not cold|known deepen|hard pass on a cold/i.test(f));
+
+    if (deepen) {
+      return `${hello} — checking in, not pitching.\n\nI’ve been thinking about ${name} and what would actually help there now. If there’s a small next thing that would serve the space or the people already gathering, I’d rather hear that from you than invent an offer.\n\nNo deck. Just a deepen.`;
+    }
+
+    const quoteLine = quote ? `\n\nA line that stayed with me from your public pages: “${quote}”` : "";
+
     const openings = {
-      warm: `Hi — I’m a neighbor in ${b.company.geo.split("(")[0].trim()} working on how spaces feel (HeartMind Spaces). I’ve been quietly impressed by ${name}, especially ${b.values.signals[0]?.toLowerCase() || "your care for craft"}. Would you be open to a short coffee sometime? No pitch deck — just curious if there’s a small way we might be useful to each other.`,
-      partner: `Hello — I work with local builders and designers on finish painting that respects the last 10% of a project. ${name}’s public work reads like craft over hustle, which is rare. If you ever want a careful painting partner for handoffs, I’d love to stay on your radar.`,
-      workshop: `Hi from Dissolve / HeartMind — I noticed ${name} already gathers people with care. I’m exploring a single small co-hosted evening (workshop / practice), draft-only on my side until it feels mutual. Open to a conversation?`,
+      warm: `${hello} — I’m Jordan, nearby in ${geo || "this corridor"}, working with HeartMind Spaces / Dissolve on how rooms and gatherings feel.\n\nI’ve been quietly paying attention to ${name}, especially ${signal.toLowerCase()}.${quoteLine}\n\nWould you be open to a short coffee? No pitch deck — just curious if there’s a small way we might be useful to each other.`,
+      partner: `${hello} — I work with local designers and builders on finish painting that respects the last 10% of a project.\n\n${name} reads as craft over hustle from the outside, which is rare.${quoteLine}\n\n${offer.angle || "If a careful finishing partner would ever be useful on a live job, I’d like to stay on your radar."}`,
+      workshop: `${hello} — I noticed ${name} already gathers people with care.\n\nI’m exploring one small co-hosted evening (practice / workshop), only if it helps your people rather than competing with what you already hold.${quoteLine}\n\nOpen to a conversation about whether that even belongs?`,
     };
     return openings[angle] || openings.warm;
+  }
+
+  function draftPacket(b, locked) {
+    const body = previewOpening(b, locked);
+    const emails = (b.contacts?.emails || []).map((e) => e.value).filter(Boolean);
+    const phones = (b.contacts?.phones || []).map((p) => p.value).filter(Boolean);
+    const contactLine = emails.length || phones.length
+      ? `Public contact: ${[...emails, ...phones].join(" · ")}`
+      : "Public contact: unknown — do not invent. Use the site form or a warm intro.";
+    return `${body}
+
+—
+Offer in the brief: ${b.suggestedOffer?.title || "—"}
+${b.suggestedOffer?.angle || ""}
+
+Must say: ${(b.suggestedOffer?.mustSay || []).join("; ") || "—"}
+Must not say: ${(b.suggestedOffer?.mustNotSay || []).join("; ") || "—"}
+
+${contactLine}
+Sources: ${(b.sources || []).map((s) => s.url).join(" · ")}
+
+Draft only. You send this from your own tools.`;
   }
 
   function renderDraft() {
@@ -915,10 +984,7 @@
     const c = ready.find((x) => x.id === state.toneId) || ready[0];
     const b = c ? briefFor(c) : null;
     const locked = c ? state.tones[c.id] : null;
-    const draft = b && locked ? previewOpening(b, locked) : "";
-    const extra = b
-      ? `\n\nSuggested offer: ${b.suggestedOffer.title}\n${b.suggestedOffer.angle}\n\nMust say: ${(b.suggestedOffer.mustSay || []).join("; ")}\nMust not say: ${(b.suggestedOffer.mustNotSay || []).join("; ")}\n\nContacts: ${(b.contacts.emails || []).map((e) => e.value).join(", ") || "unknown — do not invent"}\nSources: ${(b.sources || []).map((s) => s.url).join(" · ")}`
-      : "";
+    const draft = b && locked ? (locked.editedText || draftPacket(b, locked)) : "";
     $("#app").innerHTML = `
       <div class="page-head">
         <div>
@@ -941,7 +1007,7 @@
               <div class="card section-card">
                 <h3>${escapeHtml(c.orgName)}</h3>
                 <p class="detail-sub">${escapeHtml(locked.angle)} · ${escapeHtml(locked.voice)} · locked ${formatWhen(locked.at)}</p>
-                <textarea id="draft-text" rows="14" style="width:100%;margin-top:12px;border:1px solid var(--line);border-radius:14px;padding:14px;background:var(--surface);line-height:1.55">${escapeHtml(draft + extra)}</textarea>
+                <textarea id="draft-text" rows="16" style="width:100%;margin-top:12px;border:1px solid var(--line);border-radius:14px;padding:14px;background:var(--surface);line-height:1.55">${escapeHtml(draft)}</textarea>
                 <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
                   <button type="button" class="button primary" id="copy-draft">Copy draft</button>
                   <button type="button" class="button outline" id="export-decisions-2">Export decisions</button>
@@ -960,6 +1026,10 @@
     );
     $("#copy-draft")?.addEventListener("click", async () => {
       const text = $("#draft-text")?.value || "";
+      if (c) {
+        state.tones[c.id] = { ...state.tones[c.id], editedText: text };
+        saveStore();
+      }
       try {
         await navigator.clipboard.writeText(text);
         toast("Draft copied · send it yourself");
@@ -969,6 +1039,11 @@
       }
     });
     $("#export-decisions-2")?.addEventListener("click", exportDecisions);
+    $("#draft-text")?.addEventListener("blur", () => {
+      if (!c) return;
+      state.tones[c.id] = { ...state.tones[c.id], editedText: $("#draft-text").value };
+      saveStore();
+    });
   }
 
   /* ——— Helpers ——— */
